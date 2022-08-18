@@ -17,17 +17,10 @@ public class EntradaDados {
 		String nome = entradaTeclado.nextLine();
 		
 		System.out.println("Informe o peso:");
-		double peso = entradaTeclado.nextDouble();
+		double peso = entradaTeclado.nextDouble();		
 		
 		System.out.println(nome + " possui " + idade + " anos e " + peso + "kg.");
 		
 		entradaTeclado.close();
 	}
 }
-
-
-
-
-
-
-
