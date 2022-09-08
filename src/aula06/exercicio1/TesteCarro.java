@@ -1,4 +1,4 @@
-package aula06;
+package aula06.exercicio1;
 
 public class TesteCarro {
     public static void main(String[] args) {
