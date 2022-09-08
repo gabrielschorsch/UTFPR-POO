@@ -10,6 +10,7 @@ class Carro {
     private int vel;
 
     public Carro(String modelo, String marca, int ano, String placa, Cores cor) {
+        super();
         this.modelo = modelo;
         this.marca = marca;
         this.ano = ano;
