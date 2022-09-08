@@ -1,4 +1,4 @@
-package aula04.exercicio03;
+package aula05.exercicio03;
 
 public class Notebook {
 	String marca;
