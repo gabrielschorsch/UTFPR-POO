@@ -5,13 +5,15 @@ public class Pessoa {
     private String dataNascimento;
     private String sexo;
     private String email;
+    private Endereco endereco;
     private EstadoCivil estadoCivil;
     
-    public Pessoa(String nome,String dataNascimento,String sexo,String email, EstadoCivil estadoCivil){
+    public Pessoa(String nome,String dataNascimento,String sexo,String email, Endereco endereco, EstadoCivil estadoCivil){
         this.nome = nome;
         this.dataNascimento = dataNascimento;
         this.sexo = sexo;
         this.email = email;
+        this.endereco = endereco;
         this.estadoCivil = estadoCivil;
     }
 
