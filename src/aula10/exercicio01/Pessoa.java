@@ -7,4 +7,18 @@ public class Pessoa {
     private String email;
     private EstadoCivil estadoCivil;
     
+    public Pessoa(String nome,String dataNascimento,String sexo,String email, EstadoCivil estadoCivil){
+        this.nome = nome;
+        this.dataNascimento = dataNascimento;
+        this.sexo = sexo;
+        this.email = email;
+        this.estadoCivil = estadoCivil;
+    }
+
+    @Override
+    public String toString() {
+        return "Pessoa:"+this.nome+", "+",Data Nascimento: "+this.dataNascimento
+        +", Sexo: " + this.sexo + ",E-mail: " + this.email + 
+        ",EstadoCivil: " + this.estadoCivil;
+    }
 }
