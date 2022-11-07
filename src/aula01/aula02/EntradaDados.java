@@ -1,4 +1,4 @@
-package aula02;
+package aula01.aula02;
 
 import java.util.Scanner;
 

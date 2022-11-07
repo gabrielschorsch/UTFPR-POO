@@ -1,4 +1,4 @@
-package aula02;
+package aula01.aula02;
 
 public class EstraturuaCondicional {
 
@@ -14,7 +14,7 @@ public class EstraturuaCondicional {
 			
 			if(notaFinal >= 4.0) {
 				
-				System.out.println("RECUPERAÇÂO");
+				System.out.println("RECUPERAï¿½ï¿½O");
 			
 			} else {
 				
